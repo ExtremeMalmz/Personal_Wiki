@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+		<title>A Newer Post</title>
+		<meta charset="utf-8">
+        <link href="/static/save.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+    <body>
+        <div id = "wrapper">
+
+            <h1>Skapa en ny wiki</h1>
+
+            <form action="/new-wiki/" method="post">
+                
+
+                <label for="Title">Ditt wiki namn</label>
+                <textarea id = "wikiTitle" name = "wikiTitle" type = "text" rows = "1" cols = "10">{{ errorWikiTitle }}</textarea>
+                
+                <div id = "errorTitle">
+                    {{ errorTitleMessage }}
+                </div>
+
+                <label for="Text">Din wiki text</label>
+                <textarea id = "wikiText" name = "wikiText" type = "text" rows = "10" cols = "50">{{ errorWikiText }}</textarea>
+
+                <div id = "errorText">
+                {{ errorTextMessage }}
+                </div>
+                
+                <input type="submit" value="Create Wiki">
+            </form>
+        </div>
+    </body>
+</html>

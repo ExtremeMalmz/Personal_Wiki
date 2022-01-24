@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+		<title>A New Post</title>
+		<meta charset="utf-8">
+        <link href="/static/newpost.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+    <body>
+       <div id = "wrapper">
+             <form action="/new-wiki/" method="post">
+                    <h1>Skapa en ny wiki</h1>
+                    <h2>!!!OBS - alla rutor måste vara fyllda!!!</h2>
+                    <label for="Title">Wiki name</label>
+                    <input type="text" id="wikiTitle" name="wikiTitle">
+
+                    <label for="Text">Text area</label>
+                    <textarea id = "wikiText" name = "wikiText" type = "text" rows = "10" cols = "50"></textarea>
+
+                    <input type="submit" value="Create Wiki">
+             </form>
+        </div>
+    </body>
+</html>

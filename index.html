@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Erics Wiki</title>
+		<meta charset="utf-8">
+		<link href="/static/style.css" rel="stylesheet" type="text/css">
+	</head>
+
+    <body>
+        <h1>Välkommen till din personliga Wikipedia</h1>
+        <p>Eric Malmström - Inlämnsuppgift 5</p>
+
+        <hr>
+        <div id = "newWiki">
+            <a href = '/new/'>Make a new post!</a>
+        </div>
+        <hr>
+        
+
+        <div id = "wikiList">
+            %for dic in wikis:
+                <p>{{dic['id']}}</p>
+                <a href = "/wiki/{{ dic['id'] }}">{{ dic['Title'] }}</a>
+            %end
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/static/jquery.snowfall.js"></script>
+        <script>
+            $(document).snowfall({
+                flakeCount : 150,
+                maxSpeed : 5,
+                collection: "#wish"
+            });
+        </script>
+    </body>
+</html>
