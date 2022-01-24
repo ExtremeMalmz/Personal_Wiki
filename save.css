@@ -1,0 +1,44 @@
+body{
+    text-align:center;
+    background-color:red;
+}
+
+#wrapper{
+    width:80%;
+    margin:auto;
+    background-color:green;
+    border:solid black 10px;
+}
+
+h2{
+    color:salmon;
+    border-bottom:solid black 10px;
+    margin-bottom:50px;
+}
+
+input,label{
+    display:block;
+    margin:auto;
+}
+
+a{
+    background-color:lightblue;
+    position:absolute;
+    top: 13px;
+    left:143px;
+    padding:22px;
+    border:solid black 15px;
+    text-decoration:none;
+    color:yellow;
+}
+
+#errorTitle, #errorText{
+    color:salmon;
+    font-size: 20px;
+}
+
+form{
+    padding:20px;
+    border-top:solid black 10px;
+}
+

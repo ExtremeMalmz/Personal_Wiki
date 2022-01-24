@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+    background-color:red;
+}
+
+#wrapper{
+    width:80%;
+    margin:auto;
+    background-color:green;
+    border:solid black 10px;
+}
+
+h2{
+    color:salmon;
+    border-bottom:solid black 10px;
+    margin-bottom:50px;
+}
+
+input,label{
+    display:block;
+    margin:auto;
+}
+
+a{
+    background-color:lightblue;
+    position:absolute;
+    top: 50px;
+    left:143px;
+    padding:22px;
+    border:solid black 10px;
+    text-decoration:none;
+    color:yellow;
+}

@@ -1,0 +1,145 @@
+body{
+    background-color:salmon;
+}
+
+#wrapper{
+    background-color:red;
+    width:80%;
+    margin:auto;
+
+    min-height:500px;
+    border:10px solid black;
+}
+
+#header{
+    width:100%;
+    background-color:green;
+    min-height:127px;
+
+    border-bottom:10px solid black;
+}
+
+#header > #returnLink{
+    width:33%;
+    position:relative;
+    float:left;
+
+    vertical-align: middle;
+    line-height: 120px;
+
+    min-height:127px;
+    max-height:127px;
+}
+
+#returnLink > a{
+    text-decoration:none;
+    background-color:lightblue;
+    color:yellow;
+    
+    border-top:10px solid black;
+    border-right:10px solid black;
+    border-bottom:10px solid black;
+
+    padding:10px;
+}
+
+#header > #titleAndID{
+    text-align:center;
+    width:34%;
+    position:relative;
+    float:left;
+
+    overflow:hidden;
+    max-height:127px;
+}
+
+#header > #nextWikiLink{
+    width:33%;
+    position:relative;
+    float:left;
+
+    vertical-align: middle;
+    line-height: 120px;
+
+    min-height:127px;
+    text-align:right;
+}
+
+#nextWikiLink > a{
+    text-decoration:none;
+    background-color:lightblue;
+    color:yellow;
+
+    border-top:10px solid black;
+    border-left:10px solid black;
+    border-bottom:10px solid black;
+    
+    padding:10px;
+}
+
+#text{
+    background-color:purple;
+    min-height:400px;
+
+    word-wrap: break-word;
+
+    overflow:hidden;
+    text-indent:50px;
+}
+
+#footer{
+    background-color:green;
+    width:100%;
+    border-top:10px solid black;
+
+    min-height:30px;
+}
+
+#footer > #editPage{
+    width:50%;
+
+    vertical-align: middle;
+    line-height: 30px;
+
+    position:relative;
+    float:left;
+
+    min-height:30px;
+}
+
+#editPage > a{
+    background-color:lightblue;
+    color:green;
+
+    border-right:10px solid black;
+
+    padding:7px;
+
+}
+
+#footer > #deletePage{
+    width:50%;
+    text-align:right;
+
+    vertical-align: middle;
+    line-height: 30px;
+
+    position:relative;
+    float:left;
+    
+    min-height:30px;
+}
+
+#deletePage > a{
+    background-color:lightblue;
+    color:red;
+
+    
+
+    border-left:10px solid black;
+    padding:7px;
+}
+
+#newWiki{
+    margin:auto;
+}

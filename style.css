@@ -1,0 +1,56 @@
+body{
+    color:blue;
+    background-color:red;
+    text-align:center;
+}
+
+h1{
+    color:green;
+}
+
+#wikiList > a{
+    background-color:green;
+    color:red;
+    float:left;
+    width:70%;
+    margin:0px;
+    text-decoration:none;
+    text-align:center;
+    
+    border:solid black 10px;
+    border-collapse:collapse;
+
+    padding:10px;
+}
+
+#wikiList > p{
+    background-color:brown;
+    color:khaki;
+    float:left;
+    width:10%;
+    margin:0px;
+    
+    border:solid black 10px;
+    border-collapse:collapse;
+    
+    padding:10px;
+}
+
+#wikiList{
+    width:60%;
+    margin:auto;
+    border-collapse:collapse;
+
+}
+
+#newWiki{    
+    margin:auto;
+}
+
+#newWiki > a{
+    background-color:green;
+    text-decoration:none;
+    padding:5px;
+    border:5px solid white;
+    color:yellow;
+}
