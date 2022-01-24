@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Edit Post</title>
+		<meta charset="utf-8">
+        <link href="/static/update.css" rel="stylesheet" type="text/css">
+        
+
+	</head>
+
+    <body>
+        <div id = "wrapper">
+            <h1>Edit din wiki!</h1>
+            
+            <form action = "/update" method = "post">
+                <p>Din "edit" titel</p>
+                <textarea type = "text" rows = "1" cols = "100" id = "newWikiTitle" name = "newWikiTitle">{{ wikiTitle }}</textarea>
+                    
+                <p>Din "edit" text</p>
+                <textarea type = "text" rows = "10" cols = "100" id = "newWikiText" name = "newWikiText">{{ wikiText }}</textarea>
+                
+                
+                <textarea type = "text" rows = "1" cols = "100" id = "wikiId" name = "wikiId">{{ wikiId }}</textarea>
+                
+                <div id = "theButton">
+                    <input type="submit" value="Edit Wiki" id = "submitbutton">
+                </div>
+            </form>
+        </div>
+        
+        
+    </body>
+</html>
